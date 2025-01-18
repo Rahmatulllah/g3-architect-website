@@ -193,6 +193,18 @@ main > section{
 .sponsors-company img{
     filter: grayscale(100%);
 }
+/* footer styles */
+.footer{
+    width: 75%;
+    background-color: #FFF4E7;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 200px auto;
+}
+.footer-description{
+    text-align: center;
+    font-size: 0.8rem;
+}
 /* responsive media query */
 @media screen and (max-width:576px) {
     .navbar, 
@@ -240,4 +252,5 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
 }
