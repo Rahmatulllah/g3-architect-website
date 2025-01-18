@@ -115,6 +115,27 @@ main > section{
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+/* feature related styles */
+.features{
+    gap: 130px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 1.20rem;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
 /* some fact related styles */
 .fact-container{
     display: grid;
