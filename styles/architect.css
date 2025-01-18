@@ -17,6 +17,11 @@
    border-radius: 7px;
    border: none;
 }
+.btn-primary:hover{
+    background-color:blueviolet ;
+    transform: scale(1.5) skewY(20deg);
+    transition:3s ;
+}
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -75,6 +80,13 @@ main > section{
 .nav-item {
     list-style: none;
     margin-right: 30px;
+}
+.nav-item:hover{
+    background-color: #FF900E;
+    transform: scale(1.2) skewY(-20deg);
+    transition: 1s;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .nav-link {
